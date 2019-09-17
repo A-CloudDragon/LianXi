@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_toRightOf="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        android:text="12312321"/>
+
+
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_toRightOf="@+id/img"
+        android:layout_below="@+id/tv"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="12312321"/>
+
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_toRightOf="@+id/img"
+        android:layout_below="@+id/tv2"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="36分钟前"/>
+
+
+
+    <ImageView
+        android:id="@+id/img2"
+
+        android:layout_below="@+id/tv3"
+        android:layout_margin="5dp"
+        android:layout_width="10dp"
+        android:layout_height="20dp"/>
+
+</RelativeLayout>
